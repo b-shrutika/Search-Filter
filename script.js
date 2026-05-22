@@ -100,10 +100,11 @@ inp.addEventListener("input", function(){
   });
 
   users_container.innerHTML = "";
+
   if(newUsers.length > 0){
     showUsers(newUsers);
   }
   else{
-    users_container.textContent = "No user found."
+    users_container.textContent = "No user found.."
   }
 })
